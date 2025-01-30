@@ -1,11 +1,11 @@
 import sqlite3
 
-# Create or connect to an SQLite database
+# Create or connect to SQLite database
 def init_db():
     conn = sqlite3.connect("chatbot.db")
     cursor = conn.cursor()
     
-    # Create a table to store chat history
+    # Create table if it doesn't exist
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS chat_history (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -27,7 +27,7 @@ def save_chat(user_message, bot_response):
     conn.commit()
     conn.close()
 
-# Retrieve past chats
+# Retrieve past chat history
 def get_chat_history():
     conn = sqlite3.connect("chatbot.db")
     cursor = conn.cursor()
