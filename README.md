@@ -33,7 +33,7 @@ This project was built to allow users to have conversations with a chatbot power
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/gemini-chatbot.git
+    git clone https://github.com/BryanHE24/AI-Powered-Chatbot
     ```
 
 2. Navigate to the project folder:
