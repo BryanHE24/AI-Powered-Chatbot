@@ -19,9 +19,9 @@ This is a web-based chatbot application powered by Google's Gemini AI. It allows
 - **Session Management**: Create new sessions and delete previous ones.
 - **Responsive**: Works well across devices with an intuitive UI.
 
-## How It Was Created
+## How It works
 
-This project was built to allow users to have conversations with a chatbot powered by Google’s Gemini model. The app stores chat histories in a local SQLite database and provides a simple interface built with Streamlit. Each session is uniquely identified by a session ID and the first user message serves as the session title. Users can view past conversations, start new chats, and delete old sessions from the sidebar.
+This App was built to allow users to have conversations with a chatbot powered by Google’s Gemini model. The app stores chat histories in a local SQLite database and provides a simple interface built with Streamlit. Each session is uniquely identified by a session ID and the first user message serves as the session title. Users can view past conversations, start new chats, and delete old sessions from the sidebar.
 
 ### Project Structure
 
@@ -38,7 +38,7 @@ This project was built to allow users to have conversations with a chatbot power
 
 2. Navigate to the project folder:
     ```bash
-    cd AI-Powered ChatBot
+    cd AI-Powered-ChatBot
     ```
 
 3. Create and activate a virtual environment:
